@@ -31,19 +31,19 @@
 
                <ul class="nav__list">
                   <li class="nav__item">
-                     <a href="#home" class="nav__link active-link">Home</a>
+                     <a href="../../index.html#home" class="nav__link active-link">Home</a>
                   </li>
 
                   <li class="nav__item">
-                     <a href="#about" class="nav__link">About me</a>
+                     <a href="../../index.html#about" class="nav__link">About me</a>
                   </li>
 
                   <li class="nav__item">
-                     <a href="#projects" class="nav__link">Projects</a>
+                     <a href="../../index.html#projects" class="nav__link">Projects</a>
                   </li>
 
                   <li class="nav__item">
-                     <a href="#contact" class="nav__link nav__link-button">Contact me</a>
+                     <a href="../../index.html#contact" class="nav__link nav__link-button">Contact me</a>
                   </li>
                </ul>
 
@@ -69,18 +69,59 @@
       <main class="main">
          <!--==================== PROJECT INTRO ====================-->
          
-         <section id="intro" style="">
-            <h1>
-               Business Kirklees WordPress 
-            </h1>
-            <p>Test</p>
+         <section id="intro" class="intro section">
+            <h2 class="section__title-1">
+               <span>Business Kirklees</span>
+            </h2>
+            <div class="intro__container container grid">
+               <div class="intro_description">
+                  <p>During my university placement during the first month I volunteered to join a project for Business Kirklees involving a complete re-do of their prior website offering.</p>
+                  <p>Alongside another Web Developer I liaised with the client; gathering their needs and identifying any pain points for their current user flow. Together with my colleague we came up with timelines for when deliverables would be completed.</p>
+               </div>
+               <div class="intro__image">
+                  <img src="../../assets/img/business-kirklees/home-1.png" alt="">
+               </div>
+            </div>
          </section>
 
-         <section>
-            <h2>
-               Screenshots 
-            </h1>
-            <p>Screenshots of project</p>
+         <section id="screenshots" class="screenshots section">
+            <div class="screenshots__container container">
+               <h2 class="screenshots__title">
+                  <span>Gallery</span>
+               </h2>
+               <!-- The Modal -->
+               <div id="myModal" class="modal">
+
+                  <!-- The Close Button -->
+                  <span class="close">&times;</span>
+               
+                  <!-- Modal Content (The Image) -->
+                  <img class="modal-content" id="img01">
+               
+                  <!-- Modal Caption (Image Text) -->
+                  <div id="caption"></div>
+               </div>
+               <div class="screenshots_container container gallery">
+                  <div class="screenshots_image">
+                     <img id="myImg1" src="../../assets/img/business-kirklees/home-1.png" alt="Business Kirklees WordPress Site">
+                  </div>
+                  <div class="screenshots_image">
+                     <img id="myImg2" src="../../assets/img/business-kirklees/home-2.png" alt="">
+                  </div>
+                  <div class="screenshots_image">
+                     <img id="myImg3" src="../../assets/img/business-kirklees/about_us-1.png" alt="">
+                  </div>
+                  <div class="screenshots_image">
+                     <img id="myImg4" src="../../assets/img/business-kirklees/grow-1.png" alt="">
+                  </div>
+                  <div class="screenshots_image">
+                     <img id="myImg5" src="../../assets/img/business-kirklees/invest-1.png" alt="">
+                  </div>
+                  <div class="screenshots_image">
+                     <img id="myImg6" src="../../assets/img/business-kirklees/startup-1.png" alt="">
+                  </div>
+               </div>
+            </div>
          </section>
 
          <section>
@@ -212,5 +253,6 @@
 
       <!--=============== MAIN JS ===============-->
       <script src="../../assets/js/main.js"></script>
+      <script src="../../assets/js/projects.js"></script>
    </body>
 </html>
